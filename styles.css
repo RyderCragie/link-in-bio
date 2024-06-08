@@ -3,7 +3,7 @@
     margin: 0;
   }
   @font-face {
-    font-family: 'Jost';
+    font-family: 'Jost' sans-serif;
     font-style: normal;
     font-display: swap;
     src: url(https://link-in-bio.rydercragie.com/jost.ttf);
