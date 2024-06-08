@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Link in Bio</title>
+<style>
+  body, html {
+    height: 100%; /* Full height */
+    margin: 0;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #ffffff; /* Solid white background for light mode */
+    color: #333;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    transition: background 0.3s, color 0.3s;
+  }
+  .profile-container {
+    background-color: #f0f0f0; /* Lighter grey container for light mode */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centering the container */
+    max-width: 600px; /* Maximum width */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #000000; /* 1px border for light mode */
+    margin: 0 auto;
+  }
+  .name {
+    font-size: 24px;
+    color: #333; /* Dark text for light mode */
+    margin-top: 10px;
+  }
+  .links-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .links-list li {
+    margin-bottom: 10px;
+  }
+  .social-link {
+    text-decoration: none;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  .social-link:hover {
+    background-color: #d4d4d4;
+  }
+  .icon {
+    width: 20px; /* Set icon size to 20px */
+    height: 20px; /* Set icon size to 20px */
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #000000; /* Solid black background for dark mode */
+      color: #f0f0f0;
+    }
+    .profile-container {
+      background-color: #333333; /* Dark grey container for dark mode */
+      color: #f0f0f0;
+    }
+    .profile-picture {
+      border: 5px solid #000000; /* 1px white border for dark mode */
+    }
+    .name {
+      color: #f0f0f0; /* Light text for dark mode */
+    }
+    .social-link {
+      background-color: #444444;
+      color: #f0f0f0;
+    }
+    .social-link:hover {
+      background-color: #555555;
+    }
+  }
+  @media (max-width: 768px) {
+    .profile-container {
+      padding-left: 30px; /* Increased left padding on mobile */
+      padding-right: 30px; /* Increased right padding on mobile */
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="profile-container">
+    <img src="https://cdn.rydercragie.com/assets%2Fimages%2Fprofile-photo%2Fcircular%2Fstandard.png" alt="Profile Picture" class="profile-picture">
+    <div class="name">Ryder Cragie</div>
+    <ul class="links-list">
+      <li><a href="https://Ryder.link/X" class="social-link"><img src="https://cdn.rydercragie.com/assets/images/icons/social-media/twitter.png" alt="Twitter" class="icon">Twitter</a></li>
+      <li><a href="https://Ryder.link/YouTube" class="social-link"><img src="https://cdn.rydercragie.com/assets/images/icons/social-media/youtube.png" alt="YouTube" class="icon">YouTube</a></li>
+      <li><a href="https://Ryder.link/LinkedIn" class="social-link"><img src="https://cdn.rydercragie.com/assets/images/icons/social-media/linkedin.png" alt="LinkedIn" class="icon">LinkedIn</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+  </div>
+</body>
+</html>
