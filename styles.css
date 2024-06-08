@@ -1,12 +1,13 @@
   body, html {
     height: 100%;
     margin: 0;
-  }
-  body {
+  @font-face {
     font-family: 'Jost';
     font-style: normal;
     font-display: swap;
     src: url(/jost.ttf);
+  }
+  body {
     background: #ffffff;
     color: #333;
     text-align: center;
