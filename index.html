@@ -6,39 +6,39 @@
 <title>Link in Bio</title>
 <style>
   body, html {
-    height: 100%; /* Full height */
+    height: 100%;
     margin: 0;
   }
   body {
     font-family: 'Arial', sans-serif;
-    background: #ffffff; /* Solid white background for light mode */
+    background: #ffffff;
     color: #333;
     text-align: center;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
+    justify-content: center;
     transition: background 0.3s, color 0.3s;
   }
   .profile-container {
-    background-color: #f0f0f0; /* Lighter grey container for light mode */
+    background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: auto; /* Centering the container */
-    max-width: 600px; /* Maximum width */
-    transition: background-color 0.3s; /* Smooth transition for background color */
+    margin: auto;
+    max-width: 600px;
+    transition: background-color 0.3s;
   }
   .profile-picture {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #000000; /* 1px border for light mode */
+    border: 5px solid #000000;
     margin: 0 auto;
   }
   .name {
     font-size: 24px;
-    color: #333; /* Dark text for light mode */
+    color: #333;
     margin-top: 10px;
   }
   .links-list {
@@ -62,25 +62,25 @@
     background-color: #d4d4d4;
   }
   .icon {
-    width: 20px; /* Set icon size to 20px */
-    height: 20px; /* Set icon size to 20px */
+    width: 20px;
+    height: 20px;
     margin-right: 8px;
     vertical-align: middle;
   }
   @media (prefers-color-scheme: dark) {
     body {
-      background: #000000; /* Solid black background for dark mode */
+      background: #000000;
       color: #f0f0f0;
     }
     .profile-container {
-      background-color: #333333; /* Dark grey container for dark mode */
+      background-color: #333333;
       color: #f0f0f0;
     }
     .profile-picture {
-      border: 5px solid #000000; /* 1px white border for dark mode */
+      border: 5px solid #000000;
     }
     .name {
-      color: #f0f0f0; /* Light text for dark mode */
+      color: #f0f0f0;
     }
     .social-link {
       background-color: #444444;
@@ -92,8 +92,8 @@
   }
   @media (max-width: 768px) {
     .profile-container {
-      padding-left: 30px; /* Increased left padding on mobile */
-      padding-right: 30px; /* Increased right padding on mobile */
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
 </style>
