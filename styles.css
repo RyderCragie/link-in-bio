@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Jost';
-  src: url('https://link-in-bio.rydercragie.com/jost.ttf') format('truetype');
+  font-family: 'Outfit';
+  src: url('https://link-in-bio.rydercragie.com/outfit.ttf') format('truetype');
 }
 
 body, html {
@@ -8,7 +8,7 @@ body, html {
   margin: 0;
 }
 body {
-  font-family: 'Jost', sans-serif; /* Jost font applied */
+  font-family: 'Outfit', sans-serif; /* Outfit font applied */
   background: #ffffff;
   color: #333;
   text-align: center;
@@ -38,7 +38,7 @@ body {
   font-size: 24px;
   color: #333;
   margin-top: 10px;
-  font-family: 'Jost', sans-serif; /* Jost font applied */
+  font-family: 'Outfit', sans-serif; /* Outfit font applied */
 }
 .links-list {
   list-style: none;
@@ -56,7 +56,7 @@ body {
   border-radius: 5px;
   display: inline-block;
   transition: background-color 0.3s;
-  font-family: 'Jost', sans-serif; /* Jost font applied */
+  font-family: 'Outfit', sans-serif; /* Outfit font applied */
 }
 .social-link:hover {
   background-color: #d4d4d4;
